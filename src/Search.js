@@ -19,7 +19,7 @@ export default class Search extends Component {
 
   render() {
     return (
-      <form className="float-left" onClick={(event) => this._submit(event)}>
+      <form className="float-left" onSubmit={(event) => this._submit(event)}>
         <input
           type="text"
           placeholder="Enter a city"
